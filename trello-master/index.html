@@ -20,7 +20,9 @@
           <span class='glyphicon glyphicon-pencil' ng-click='editList(list.id)'></span>
           <span class='glyphicon glyphicon-trash' ng-click='deleteList(list.id)'></span>
           <span class='glyphicon glyphicon-plus' ng-click='newItem(list.id)'></span></br>
-          <span><b>{{list.name}}</b></span>
+          <span>
+          <b>{{list.name}}</b>
+          </span>
         </div>
         <form ng-if='inputFlags.editList==list.id' name='updateListForm'>
           <div class='create-box'>
