@@ -9,8 +9,8 @@
 </head>
 <body ng-app="trello"  ng-cloak ng-controller='MainCtrl'>
 <div class='navbar'>
-  <input placeholder='type your search query here' ng-model='searchObj.query' ng-model-options="{debounce:1000}">
-  
+  <input placeholder='search query here' ng-model='searchObj.query' ng-model-options="{debounce:1000}">
+
 </div>
 <div class='container'>
   <div class='list' ui-sortable='sortableListOptions' ng-model='lists.data'>
